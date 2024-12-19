@@ -22,6 +22,7 @@ const Navbar = () => {
 
   useGSAP(()=>{
       const tl = gsap.timeline()
+      
       tl.from('.brand', {
         y:-50,
         opacity: 0,
@@ -35,7 +36,7 @@ const Navbar = () => {
       })
     })
   return (
-    <div className='flex absolute justify-between items-center w-full h-16 px-4 golos border-b-2 max-w-[1920px]'>
+    <div className='navbar flex absolute justify-between items-center w-full h-16 px-4 golos border-b-2 max-w-[1920px]'>
       <a href="#" className='brand'><h1 className='text-black text-3xl font-bold cursor-pointer '>Portfolio.</h1></a>
       <ul className='hidden md:flex gap-5 justify-around items-center'>
         <li className='navigator py-2 px-4 rounded-md text-black text-lg'><a href="#About">Home</a></li>
