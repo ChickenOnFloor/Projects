@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Golos+Text:wght@400..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  font-family: "Audiowide", sans-serif;
+}
+
