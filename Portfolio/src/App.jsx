@@ -11,7 +11,7 @@ function Component() {
 
   return (
     <ReactLenis root>
-     <div className='w-full h-screen max-w-[1920px] relative'>
+     <div className=''>
         <Navbar />
         <Hero />
         <Stuff />

@@ -29,12 +29,12 @@ const Hero = () => {
     })
   })
   return (
-    <div id="Hero" className='hero flex justify-center items-center w-full h-screen p-32 max-md:flex-col flex-row gap-20 sm:gap-20 md:gap-10 border-b-2'>
-      <div className='flex justify-center flex-col w-12/12 gap-6 md:w-5/12'>
-        <h1 className='Name md:text-5xl text-3xl font-bold text-center md:text-start'>M.Jawwad Siddique</h1>
-        <h1 className='About text-2xl text-center md:text-start'>I'm a Front-End Web Developer</h1>
+    <div id="Hero" className='hero flex justify-center items-center w-full h-screen p-10 max-md:flex-col flex-row gap-10 sm:gap-20 md:gap-10 border-b-2'>
+      <div className='flex justify-center flex-col gap-6 sm:w-6/12 md:w-12/12'>
+        <h1 className='Name md:text-4xl text-2xl font-bold text-center md:text-start'>M.Jawwad Siddique</h1>
+        <h1 className='About text-xl text-center md:text-start'>I'm a Front-End Web Developer</h1>
       </div>
-      <div className='flex justify-center items-center w-12/12 md:w-4/12 h-2/6 order-first md:order-last'>
+      <div className='flex justify-center items-center md:w-4/12 h-2/6 order-first md:order-last'>
         <img className="w-4/12 rounded-full min-w-44" src={dog}/>
       </div>
     </div>

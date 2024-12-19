@@ -78,32 +78,32 @@ const Stuff = () => {
     })
   return (
     <div id="About" className='stuff_parent w-full h-screen bg-white'>
-        <div className='flex justify-center items-center h-32 bg-black overflow-hidden'>
-            <h1 className='stuff text-center text-7xl text-white'>STUFFS I KNOW</h1>
+        <div className='flex justify-center items-center h-16 sm:h-24 md:h-32 bg-black overflow-hidden'>
+            <h1 className='stuff text-center text-4xl sm:text-6xl md:text-7xl text-white'>STUFFS I KNOW</h1>
         </div>
         
-        <div className='flex justify-center items-center flex-col h-4/6 gap-20 p-2'>
-            <h1 className='heading text-4xl border-b-2 border-black'>About Me</h1>
-            <h3 className='about w-6/12'>I am a dedicated Front-End Developer with expertise in HTML, CSS, JavaScript, and React. I specialize in transforming designs into fully functional, responsive, and user-friendly web interfaces. My focus is on writing clean, efficient, and maintainable code to create seamless and accessible web experiences across all devices.</h3>
-            <div className='flex justify-center items-center cards w-full sm:gap-5 md:gap-20'>
-                <div className='card1 card w-[460px] h-72 rounded-lg overflow-auto border-2 border-black'>
-                    <div className='absolute flex justify-center items-center w-full h-16 border-b-2 border-black'>
+        <div className='flex justify-center items-center flex-col h-4/6 gap-10 p-2'>
+            <h1 className='heading text-xl sm:text-2xl md:text-4xl border-b-2 border-black mt-44 sm:mt-40 md:mt-52'>About Me</h1>
+            <h3 className='about w-10/12 sm:w-8/12 md:w-8/12 text-xs sm:text-lg md:text-xl'>I am a dedicated Front-End Developer with expertise in HTML, CSS, JavaScript, and React. I specialize in transforming designs into fully functional, responsive, and user-friendly web interfaces. My focus is on writing clean, efficient, and maintainable code to create seamless and accessible web experiences across all devices.</h3>
+            <div className='flex justify-center flex-col sm:flex-row md:flex-row items-center cards w-full gap-5 sm:gap-5 md:gap-20'>
+                <div className='relative card1 card w-8/12 max-w-[460px] h-44 sm:h-64 md:h-72 rounded-lg overflow-auto border-2 border-black'>
+                    <div className='absolute flex justify-center items-center w-full h-2/12 sm:h-10 md:h-16 border-b-2 border-black'>
                         <h1 className='text-3xl'>Technologies</h1>
                     </div>
                     <div className='flex flex-wrap justify-center items-center h-full'>
-                        <img className="rd" src={html} width={80} alt="" />
-                        <img className="rd" src={css} width={80} alt="" />
-                        <img className="rd" src={javascript} width={80} alt="" />
-                        <img className="rd" src={reat} width={80} alt="" />
+                        <img className="rd w-[50px] sm:w-[80px]" src={html} width={80} alt="" />
+                        <img className="rd w-[50px] sm:w-[80px]" src={css} width={80} alt="" />
+                        <img className="rd w-[50px] sm:w-[80px]" src={javascript} width={80} alt="" />
+                        <img className="rd w-[50px] sm:w-[80px]" src={reat} width={80} alt="" />
                     </div>
                 </div>
-                <div className='card2 card w-[460px] h-72 rounded-lg overflow-auto border-2 border-black relative'>
-                    <div className='absolute flex justify-center items-center w-full h-16 border-b-2 border-black'>
-                        <h1 className='text-3xl'>Others</h1>
+                <div className='relative card2 card w-8/12 max-w-[460px] h-44 sm:h-64 md:h-72  rounded-lg overflow-auto border-2 border-black'>
+                    <div className='absolute flex justify-center items-center w-full h-2/12 sm:h-10 md:h-16 border-b-2 border-black'>
+                        <h1 className='text-3xl '>Others</h1>
                     </div>
                     <div className='flex flex-wrap justify-center items-center h-full'>
-                        <img className="rd" src={github} width={80} alt="" />
-                        <img className="rd" src={git1} width={80} alt="" />
+                        <img className="rd w-[50px] sm:w-[80px]" src={github} width={80} alt="" />
+                        <img className="rd w-[50px] sm:w-[80px]" src={git1} width={80} alt="" />
                     </div>
                 </div>
             </div>
